@@ -1,9 +1,22 @@
 .App {
   text-align: center;
+  background: #eceff1;
 }
 
 .Pokecard {
-  background: green
+  background: green;
+  border: 2px solid purple;
+  width: 300px;
+  padding: 10px;
+  margin: 1rem;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+  text-align: center;
+}
+
+.Pokedex-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {
